@@ -1,3 +1,4 @@
+//add tslint
 {
   "compilerOptions": {
     "target": "es5",
