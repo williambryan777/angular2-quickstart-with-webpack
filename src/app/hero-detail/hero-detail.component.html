@@ -1,0 +1,18 @@
+<div class="jumbotron">
+<div class="container" *ngIf="hero">
+    <h2>{{hero.name}}</h2>
+    <form>
+        <div class="form-group">
+            <label>id: </label>{{hero.id}}
+        </div>
+        <div class="form-group">
+            <label>name: </label>
+            <input [(ngModel)]="hero.name" placeholder="name" class="form-control" />
+        </div>
+        <button (click)="goBack()" class="btn btn-default">Back</button>
+        <button (click)="save(hero)" class="btn btn-primary">Save</button>
+    </form>
+</div>
+</div>
+
+
