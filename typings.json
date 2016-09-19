@@ -1,3 +1,4 @@
+//add typings ,for typescript intelligent
 {
   "globalDependencies": {
     "core-js": "registry:dt/core-js#0.0.0+20160524134847"
